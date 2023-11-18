@@ -93,6 +93,7 @@ https://developer.mozilla.org/ru/docs/Web/CSS/@media
 a {
   text-decoration: none;
   color: var(--text-color);
+  
   /*
   Поменяем курсор на котика из Шрека при наведении на ссылку
   Важно сделать это здесь, а не в псевдо-классе :hover
@@ -109,7 +110,6 @@ a:hover {
 /* 
 Медиа query для планшетов, срабатывает, когда минимальный размер окна достигает 1024px
 */
-
 @media screen and (min-width: 1024px) {
   body {
     padding: 4.883vw;
@@ -138,7 +138,6 @@ a:hover {
 }
 
 /* Медиа query для десктопов, срабатывает при достижении 1440px  */
-
 @media screen and (min-width: 1440px) {
   body {
     padding: 3.472vw;
